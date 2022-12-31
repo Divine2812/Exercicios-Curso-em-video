@@ -1,0 +1,12 @@
+#Exercício 04 - Ver o tipo e todas as informações de um valor inserido.
+digito = input("Digite algo no teclado ")
+print(f"Qual o tipo? {type(digito)}")
+print(f"Têm números ou letras? {digito.isalnum()}")
+print(f"É uma letra? {digito.isalpha()}")
+print(f"É um digito? {digito.isdigit()}")
+print(f"Está tudo em minúsculo? {digito.islower()}")
+print(f"É decimal? {digito.isdecimal()}")
+print(f"É um número? {digito.isnumeric()}")
+print(f"É apenas espaços? {digito.isspace()}")
+print(f"Está em maiúsculo? {digito.isupper()}")
+print(f"Está capitalizada? {digito.istitle()}")
