@@ -1,0 +1,9 @@
+#Exercício 22 - Criar um programa que leia o nome de alguém, digite o nome em maiúsculo e minúsculo, mostre o primeiro nome e a quandidade de letras.
+n = str(input("Digite seu nome: "))
+n1 = (n.replace(" ", ""))
+n2 = len(n1)
+spl = str.split(n)
+print(f"Nome em letras maiúsculas: {n.upper()}")
+print(f"Nome em letras minúsculas: {n.lower()}")
+print(f"A quantidade total de letras é de {n2} letras!")
+print(f"O primeiro nome é {spl[0]}")
