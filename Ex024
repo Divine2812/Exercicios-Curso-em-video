@@ -1,3 +1,4 @@
+#Exercício 024 - Digitar o nome de uma cidade de dizer se o nome se inicia com 'Santos'
 city = input("Digite o nome da cidade: ")
 spl = city.lower().split()
 fnd = spl[0].find('santos')
