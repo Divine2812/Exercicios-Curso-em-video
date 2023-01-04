@@ -1,3 +1,4 @@
+#Exercício 025 - Inserir um nome e informar se há ou não o nome 'Silva' no nome.
 n = input("Digite o nome: ")
 low = str.lower(n)
 s = low.find('silva')
