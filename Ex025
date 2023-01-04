@@ -1,0 +1,7 @@
+n = input("Digite o nome: ")
+low = str.lower(n)
+s = low.find('silva')
+if s < 0:
+    print("Não há a palavra 'silva' no nome inserido.")
+else:
+    print("Há a palavra 'silva' no nome inserido.")
