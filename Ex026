@@ -1,3 +1,4 @@
+#Exercício 026 - Informar a quantidade de letras A em uma frase e mostrar a posição da primeira e da última letra.
 fras = input("Digite a frase a ser analisada: ")
 low = fras.lower()
 count = low.count('a')
