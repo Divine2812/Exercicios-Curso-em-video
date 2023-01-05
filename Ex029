@@ -1,3 +1,4 @@
+#Exercício 029 - Identificar a velocidade inserida, calcular a quantidade de KM por hora e o valor da multa a ser paga.
 vel = int(input("Digite a velocidade do carro: "))
 if vel>80:
     ac = (vel-80)*7
