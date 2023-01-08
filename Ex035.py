@@ -11,3 +11,4 @@ else:
 
 print("\033[33m=\033[m" * 40)
 #Exercício com cores
+print("Oie")
