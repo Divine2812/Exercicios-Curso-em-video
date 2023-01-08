@@ -7,4 +7,3 @@ if s == n:
     print(f"Parabéns, você acertou! O número correto era {n},")
 else:
     print(f"Número errado. O número correto foi {n}. =(")
-    
