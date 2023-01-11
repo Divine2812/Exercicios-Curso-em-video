@@ -4,7 +4,7 @@ print("\033[34mConversor de número decimal para binário, octal ou hexadecimal.
 print("\033[33m-=" * 20 + "-\033[m")
 num = int(input("Digite um número a ser convertido: "))
 print("\033[32mDigite 1 para converter o número inserido para binário;\nDigite 2 para converter o número inserido para octal;\nDigite 3 para converter o número inserido para hexadecimal.\033[m")
-inf = int(input("Digite o número: "))
+inf = int(input("Digite a opção: "))
 print("\033[33m-=" * 20 + "-\033[m")
 if inf == 1:
     b = bin(num).replace('0b', "")
