@@ -2,8 +2,8 @@
 print('\033[33m-=' * 30 + '-\033[m')
 print("\033[36mCalculadora de IMC - Indíce de massa corporal")
 print('\033[33m-=' * 30 + '-\033[m')
-hal = float(input("Para começarmos, digite sua altura: "))
-pes = float(input("Em seguida, digite seu peso: "))
+hal = float(input("\033[36mPara começarmos, digite sua altura: "))
+pes = float(input("\033[36mEm seguida, digite seu peso: "))
 imc = pes / (hal * hal)
 if imc < 18.5: 
     print(f"\033[35mO seu IMC é de {imc:.2f}, você está abaixo do peso!\033[m")
