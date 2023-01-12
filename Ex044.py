@@ -18,5 +18,7 @@ elif val == 3:
 elif val == 4:
     pag = (prec/100) * 20 + prec 
     print (f"\033[35mA opção selecionada foi em 3x ou mais no cartão. O valor a ser pago pelo produto é de {pag}.\033[m") 
+else: 
+    print("\033[36mA opção inserida não existe.\033[m")
 print('-=' * 30 + '-')
 
