@@ -1,5 +1,6 @@
 #Exercício 045 - Pedra, papel e tesoura.
 import random
+from time import sleep
 print('\033[33m-=' * 30 + '-\033[m')
 print('\033[35mPedra, papel e tesoura começando...')
 pedra = 'pedra'
@@ -8,6 +9,13 @@ papel = 'papel'
 print('\033[33m-=' * 30 + '-\033[m')
 print("Escolha entre as opções abaixo: \nDigite 1 para escolher PEDRA;\nDigite 2 para escolher TESOURA;\nDigite 3 para escolher PAPEL.")
 esc = int(input("Digite uma opção acima: ")) 
+sleep(1)
+print("PEDRA...")
+sleep(1)
+print("PAPEL...")
+sleep(1)
+print("TESOURA!")
+sleep(1)
 if esc == 1:
     esc = pedra
 elif esc == 2:
