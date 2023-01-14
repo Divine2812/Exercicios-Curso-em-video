@@ -10,7 +10,7 @@ parc = val/(ano * 12)
 porc = (sal/100) * 30
 print("\033[1;33m-=" * 20 + "\033[1;33m-\033[m")
 if parc > porc:
-    print("\033[31mInfelizmente seu empréstimo foi \033[4;33mnegado\033[0;31m. \nA parcela de seu empréstimo é maior que 30% de seu salário. ")
+    print(f"\033[31mInfelizmente seu empréstimo foi \033[4;33mnegado\033[0;31m. \nA parcela de seu empréstimo é maior que 30% de seu salário e ficou em {parc:.2f}R$!")
 else: 
     print(f"\033[32mSeu empréstimo foi \033[4;32aprovado\033[32m! O total da parcela mensal foi definida em \033[4;33m{parc:.2f}\033[0;32mR$!")
 print("\033[1;33m-=\033[m" * 20 + "\033[1;33m-\033[m")
