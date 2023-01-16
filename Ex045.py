@@ -9,6 +9,9 @@ papel = 'papel'
 print('\033[33m-=' * 30 + '-\033[m')
 print("Escolha entre as opções abaixo: \nDigite 1 para escolher PEDRA;\nDigite 2 para escolher TESOURA;\nDigite 3 para escolher PAPEL.")
 esc = int(input("Digite uma opção acima: ")) 
+if esc >=4:
+    print("O número inserido não corresponde a nenhuma opção.")
+    exit()
 sleep(1)
 print("PEDRA...")
 sleep(1)
