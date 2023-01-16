@@ -6,4 +6,3 @@ nome3 = str(input("Digite o nome do terceiro aluno: "))
 nome4 = str(input("Digite o nome do quarto aluno: "))
 ran = nome1, nome2, nome3, nome4
 print(f"O nome escolhido para limpar o quadro foi: {random.choice(ran)}")
-```
