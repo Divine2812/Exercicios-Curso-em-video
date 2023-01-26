@@ -4,3 +4,4 @@ num = float(input("Digite um número: "))
 print("=-=-=-=-=-=-=-=-=-=-=")
 print(f"A porção inteira de {num:.2f} é {floor(num)}! =D")
 print("=-=-=-=-=-=-=-=-=-=-=")
+
