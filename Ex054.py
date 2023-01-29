@@ -6,7 +6,7 @@ age_list18 = []
 age_list0 = []
 for c in range (1, 8):
     age = int(input("Digite o ano de nascimento: "))
-    if date.today().year - age >= 18 :
+    if date.today().year - age >= 21:
         age_list18.append(age)
     else: 
         age_list0.append(age)
