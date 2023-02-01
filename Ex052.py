@@ -13,3 +13,4 @@ else:
             print(f"O número {n} não é um número primo.")
     print(f"O número {n} é um número primo")
 print('-=' * 30 + '-')
+

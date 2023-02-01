@@ -11,13 +11,14 @@ for pg in range (0, 4):
     u = pg + 1
     if u == 1:
         org = "primeira"
+    
     elif u == 2:
         org = "segunda"
     elif u == 3:
         org = "terceira"
     elif u == 4:
         org = "quarta" #organiza as palavras "primeira, "Segunda, "Terceira" e "Quarta" nas frases input.
-    n = str(input(f"\033[34mDigite o nome da {org} pessoa:\033[m "))
+    n = str(input(f"\033[35m-=-=-=-=\033[34m {org.title()} pessoa \033[35m=-=-=-=-\n\033[34mDigite o nome da {org} pessoa: \033[m"))
     while s.lower().strip() != "masculino" or s.lower().strip() != "feminino": #Só aceita masculino e feminino como input.
         s = input(f"\033[34mDigite o sexo da {org} pessoa: Mas/Fem \033[m")
         if s.lower().strip() == "masculino":
