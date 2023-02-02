@@ -16,6 +16,5 @@ while fatorial > 0:
     if fatorial > 0:
         f *= fatorial    
 print(f)
-
-    
+print('\033[33m-=' * 20 + '-\033[m')
     
