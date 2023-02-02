@@ -12,3 +12,5 @@ if n.isnumeric() == True:
     print(emoji.emojize("\033[32mOs fogos começaram!!! :confetti_ball::confetti_ball::confetti_ball::dizzy::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball::confetti_ball:\033[m"))
 else: 
     print("\033[31mO caractere inserido não é um número.\033[m")
+
+    
