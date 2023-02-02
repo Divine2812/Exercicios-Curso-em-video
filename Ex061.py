@@ -10,8 +10,5 @@ lis.append(primeiro_termo)
 while len(lis) < 10:
     primeiro_termo += razao
     lis.append(primeiro_termo)
-print(lis)
-#for c in range (a1, pf, r):
-#    lis.append(c)
 print(f"Os 10 primeiros números da P.A inserida são: {str(lis)[1:-1]}")
 print('\033[33m-=' * 30 + '-\033[m')
