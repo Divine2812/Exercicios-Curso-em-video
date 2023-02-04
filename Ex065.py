@@ -13,6 +13,6 @@ while escolha != 'N':
     lista.append(n)
     contador += 1
     soma += n 
-    escolha = input("\033[34mDeseja continuar? S/N\033[m ").upper()
+    escolha = input("\033[34mDeseja continuar? S/N\033[m ").upper().strip()[0]
 print(f"\033[35mA quantidade de números inseridos foi {contador};\nA média entre eles é de {soma/contador:.2f};\nO maior valor é {max(lista)} e o menor valor é {min(lista)}! =)")
 print('\033[33m-=' * 30 + '-\033[m')
