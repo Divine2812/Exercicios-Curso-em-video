@@ -21,7 +21,7 @@ while True:
         print(f"\033[32mPAR!! Você ganhou. O computador jogou {computador} e a soma dos números deu {soma}.\033[m ")
         contador += 1
         print(f"\033[34mTotal de {contador} vitórias.\033m")
-    elif soma % 3 == 0 and parouimpar == 1:
+    elif soma % 2 > 0 and parouimpar == 1:
          print(f"\033[32mÍMPAR!! Você ganhou. O computador jogou {computador} e a soma dos números deu {soma}.\033[m")
          contador += 1
          print(f"\033[34mTotal de {contador} vitórias.\033m")
@@ -31,4 +31,5 @@ while True:
         print('\033[33m-=' * 30 + '-\033[m')
         break
     print('\033[33m-=' * 30 + '-\033[m')
+    
    
