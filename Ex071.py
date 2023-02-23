@@ -4,7 +4,7 @@ print('\033[33m-=' * 12 + '-\033[m')
 print("\033[35m      Banco Divino")
 print('\033[33m-=' * 12 + '-\033[m')
 total = int(input("\033[34mDigite o valor a ser sacado: \033[m"))
-céd = 50
+céd = 200
 qnt = 0
 sleep(1)
 print("Analizando dados...")
@@ -17,11 +17,19 @@ while True:
         if qnt > 0:
             print(f"\033[35mO total de notas de {céd} é de {qnt}.\033[m")
             qnt = 0
-        if céd == 50:
+        if céd == 200:
+            céd = 100
+        elif céd == 100:
+            céd = 50
+        elif céd == 50:
             céd = 20
         elif céd == 20:
             céd = 10
         elif céd == 10:
+            céd = 5
+        elif céd == 5:
+            céd = 2
+        elif céd == 2:
             céd = 1
         if total == 0:
             break
