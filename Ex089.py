@@ -14,11 +14,9 @@ while True:
     if ask in "nN":
         break
 print("-=" * 30 + "-")
-print("Nº  Nome           Média")
+print(f'{"Nº":<8}{"Nome":<10}{"Média":>8}')
 for g, nome in enumerate(geral):
-    print(f'{g+1}   {nome[0].capitalize()}', end=".....")
-    print(f"{nome[3]}", end="")
-    print()
+    print(f'{g+1:<8}{nome[0]:<10}{nome[3]:>8.1f}')
 print("-=" * 30 + "-")
 while True:
     ask2 = int(input("Mostrar as notas de qual aluno? (999 finaliza o programa) "))
